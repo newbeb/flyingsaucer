@@ -5,12 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>flying-saucer</groupId>
-    <artifactId>flying-saucer</artifactId>
-    <version>9.0-SNAPSHOT</version>
+    <artifactId>flying-saucer-jensrutschman-ddc</artifactId>
+    <version>9.0-5921586-SNAPSHOT</version>
+
 
     <packaging>pom</packaging>
 
     <name>Flying Saucer</name>
+
+    <description>
+	    A custom build of a mavenized version of flying-saucer to get patches to fix infinite loop in image resizing.
+    </description>
 
     <modules>
         <module>flying-saucer-core</module>
@@ -27,6 +32,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+   	    <connection>scm:git:git@github.com:newbeb/flyingsaucer.git</connection>
+   	    <url>scm:git:git@github.com:newbeb/flyingsaucer.git</url>
+   	    <developerConnection>scm:git:git@github.com:newbeb/flyingsaucer.git</developerConnection>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
