@@ -6,7 +6,7 @@
 
     <groupId>flying-saucer</groupId>
     <artifactId>flying-saucer-jensrutschman-ddc</artifactId>
-    <version>9.0-5921586-SNAPSHOT</version>
+    <version>9.0-5921586</version>
 
 
     <packaging>pom</packaging>
